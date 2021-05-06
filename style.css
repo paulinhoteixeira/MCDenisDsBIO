@@ -14,8 +14,8 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 375px;
-  height: 100%;
+  width: 400px;
+  height: 100vh;
   margin: 0 auto;
 }
 
@@ -155,4 +155,5 @@ footer img {
   margin-top: 5px;
   width: 68px;
   height: 44px;
+  margin-bottom: 10px;
 }
