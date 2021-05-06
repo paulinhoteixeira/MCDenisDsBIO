@@ -2,21 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+  
 }
+
+
 
 body {
+  display: flex;
   background: black;
-  height: 100%;
+  font-family: "Nunito", sans-serif;
+  
+  
 }
 
-section {
+.container {
   background-color: #eeedef;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
   width: 400px;
-  height: calc(100% - 20px);
+  height: 100vh;
+  
+  overflow: auto;
   margin: 0 auto;
 }
 
