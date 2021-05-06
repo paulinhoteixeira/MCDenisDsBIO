@@ -3,70 +3,101 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
-  
 }
 
 body {
-    background: black;
-    display: flex;
-    justify-content: center;    
+  background: black;
 }
 
-section{
-    background-color: #EEEDEF;
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    height: calc(100vh - 20px);
+section {
+  background-color: #eeedef;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: calc(100vh - 20px);
+  margin: 0 auto;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #avatar {
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    margin-top: 25px;
-    border: 1px solid #E1BD1D;
-    margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-top: 25px;
+  border: 1px solid #e1bd1d;
+  margin-bottom: 10px;
 }
 
-nav{
-    background: rgba(255, 255, 255, 0.44);;
-    width: 300px;
-    height: 50px;
-    border-radius: 2px;
+h1{
+    font-weight: 700;
+    font-size: 18px;    
+}
 
-    margin-top: 10px;
-    margin-bottom: 10px;
+nav {
+  background: rgba(255, 255, 255, 0.44);
+  width: 300px;
+  height: 50px;
+  border-radius: 3px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;      
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
 }
 
 nav img {
-    display: flex;
-    width: 35px;
-    height: 35px;
-    opacity: 0.9;
-    transition: 0.5s;
-    
+  display: flex;
+  width: 35px;
+  height: 35px;
+  opacity: 0.9;
+  transition: 0.5s;
 }
 
 nav img:hover {
-    opacity: 0.5;  
+  opacity: 0.5;
 }
 
-.linhaVertical{
-    border-right: 1px solid #E1BD1D;
-    height: 40px;
+.linhaVertical {
+  border-right: 1px solid #e1bd1d;
+  height: 40px;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
+#video {
+  background: rgba(255, 255, 255, 0.44);
+  width: 300px;
+  border-radius: 3px;
 
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 10px;
+  margin: 0;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 16px;  
+}
+
+iframe{
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+footer img {
+  width: 68px;
+  height: 44px;
+}
