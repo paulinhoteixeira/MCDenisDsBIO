@@ -2,28 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-
-
 
 body {
   display: flex;
   background: black;
   font-family: "Nunito", sans-serif;
-  
-  
 }
 
 .container {
   background-color: #eeedef;
   display: flex;
   flex-direction: column;
-  
   width: 400px;
-  height: 100vh;
-  
-  overflow: auto;
+  height: calc(100vh - 20px);
   margin: 0 auto;
 }
 
@@ -104,6 +96,8 @@ h2 {
 iframe {
   border-radius: 3px;
   margin-top: 5px;
+  width: 100%;
+  height: 100%;
 }
 
 #assistaTambem {
@@ -113,6 +107,8 @@ iframe {
   width: 300px;
   margin-top: 10px;
   color: black;
+
+  background-color: #eeedef;
 }
 
 h3 {
@@ -143,7 +139,9 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 20px;
+  padding-top: 45px;
+
+  background-color: #eeedef;
 }
 
 #developedBy {
