@@ -24,6 +24,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 #avatar {
@@ -38,6 +39,14 @@ header {
 h1 {
   font-weight: 700;
   font-size: 18px;
+}
+
+header p{
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  
+  
 }
 
 nav {
