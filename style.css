@@ -130,7 +130,7 @@ h3 {
   margin-top: 10px;
 }
 
-main a {
+#assistaTambem a {
   background: rgba(255, 255, 255, 0.44);
   text-decoration: none;
   text-align: center;
@@ -160,15 +160,15 @@ footer {
   font-size: 12px;
 }
 
-footer a {
+main #developedBy a {
   text-decoration: none;
   text-align: center;
   color: black;
   margin-left: 3px;
 }
 
-footer img {
-  margin-top: 5px;
+main img {
+  margin-top: 25px;
   width: 68px;
   height: 44px;
   margin-bottom: 5px;
