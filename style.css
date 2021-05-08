@@ -59,7 +59,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  
 }
 
 nav img {
@@ -77,6 +77,8 @@ nav img:hover {
 .linhaVertical {
   border-right: 1px solid #e1bd1d;
   height: 40px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
 main {
