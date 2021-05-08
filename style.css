@@ -54,12 +54,11 @@ nav {
   border-radius: 3px;
 
   margin-top: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 nav img {
@@ -117,7 +116,7 @@ iframe {
   align-items: center;
   flex-direction: column;
 
-  margin-top: 10px;
+  margin-top: 20px;
   color: black;
 }
 
@@ -127,10 +126,9 @@ h3 {
   text-align: left;
   font-weight: 800;
   font-size: 12px;
-  margin-top: 10px;
 }
 
-#assistaTambem a {
+main a {
   background: rgba(255, 255, 255, 0.44);
   text-decoration: none;
   text-align: center;
@@ -143,6 +141,54 @@ h3 {
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
+}
+
+#queMinaEEssa{
+  animation: shake;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  transition: 0.5s;
+}
+
+#queMinaEEssa:hover{
+  opacity: 0.5;
+}
+
+#desfruta{
+  animation: shake;
+  animation-duration: 3s;
+  animation-delay: 6s;
+  animation-iteration-count: 1;
+  transition: 0.5s;
+}
+
+#desfruta:hover{
+  opacity: 0.5;
+}
+
+@keyframes shake {
+  0%,
+  16%,
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: rotate(0deg);
+  }
+  1.6%,
+  4.8%,
+  8%,
+  11.2%,
+  14.4% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: rotate(-5deg);
+  }
+  3.2%,
+  6.4%,
+  9.6%,
+  12.8% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: rotate(5deg);
+  }
 }
 
 footer {
@@ -160,15 +206,15 @@ footer {
   font-size: 12px;
 }
 
-main #developedBy a {
+footer a {
   text-decoration: none;
   text-align: center;
   color: black;
   margin-left: 3px;
 }
 
-main img {
-  margin-top: 25px;
+footer img {
+  margin-top: 5px;
   width: 68px;
   height: 44px;
   margin-bottom: 5px;
