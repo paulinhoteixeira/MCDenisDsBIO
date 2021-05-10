@@ -160,7 +160,7 @@ main a {
   animation-duration: 3s;
   animation-delay: 6s;
   animation-iteration-count: 1;
-  transition: 0.5s;
+  transition: opacity 0.5s;
 }
 
 #desfruta:hover{
