@@ -148,7 +148,7 @@ main a {
   animation-duration: 3s;
   animation-delay: 3s;
   animation-iteration-count: 1;
-  
+  transition: opacity 0.5s;  
 }
 
 #queMinaEEssa:hover{
